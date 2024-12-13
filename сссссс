@@ -1,0 +1,14 @@
+int main() {
+    int num;
+    printf ("Ввод");
+    scanf("%d", &num);
+    if (num>0 ) {
+        printf("+\n");
+    }else if (num<0) {
+        printf("-\n");
+    }else {
+        printf("null\n");
+    }
+    return 0;
+    
+}    
